@@ -33,7 +33,7 @@ public class SortFactory {
 				sort=(Sorter)obj;
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 		return sort;
 	}
