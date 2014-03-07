@@ -19,6 +19,9 @@ public class SortMain {
         Comparable[] items;
         
         items = datFile.getComparables();
+        Test(items, "sorting2014.QuickSort");
+        
+        items = datFile.getComparables();
         Test(items, "sorting2014.BubbleSort");
         
         items = datFile.getComparables();
