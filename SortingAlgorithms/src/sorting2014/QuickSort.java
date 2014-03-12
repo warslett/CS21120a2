@@ -27,31 +27,31 @@ public class QuickSort implements Sorter {
         int cursor2 = finishIndex;
 
         while (cursor1 <= cursor2) {
+            
             while (list[cursor1].compareTo(pivot) < 0) {
                 cursor1++;
             }
+            
             while (list[cursor2].compareTo(pivot) > 0) {
                 cursor2--;
             }
+            
             if (cursor1 <= cursor2) {
-                swap(cursor1, cursor2);
+                Comparable temp = list[cursor1];
+                list[cursor1] = list[cursor2];
+                list[cursor2] = temp;
                 cursor1++;
                 cursor2--;
             }
+            
         }
-        
+
         if (startIndex < cursor2) {
             quicksort(startIndex, cursor2);
         }
         if (finishIndex > cursor1) {
             quicksort(cursor1, finishIndex);
         }
-        
-    }
 
-    private void swap(int comp1, int comp2) {
-        Comparable temp = list[comp1];
-        list[comp1] = list[comp2];
-        list[comp2] = temp;
     }
 }

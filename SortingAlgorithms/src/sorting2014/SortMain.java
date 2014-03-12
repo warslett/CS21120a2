@@ -22,10 +22,10 @@ public class SortMain {
         Test(items, "sorting2014.QuickSort");
         
         items = datFile.getComparables();
-        Test(items, "sorting2014.BubbleSort");
+        Test(items, "sorting2014.RadixSort");
         
         items = datFile.getComparables();
-        Test(items, "sorting2014.RadixSort");
+        Test(items, "sorting2014.BubbleSort");
 
     }
 
@@ -33,7 +33,7 @@ public class SortMain {
 
         long start;
         long finish;
-        long timeTaken = 0;
+        long timeTaken;
 
         Sorter s = SortFactory.getSorter(sort);
 
