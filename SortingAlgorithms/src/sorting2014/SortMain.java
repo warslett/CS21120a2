@@ -15,14 +15,15 @@ public class SortMain {
 
     public static void main(String[] args) {
 
-        DataFile datFile = new DataFile("SortingData/test5.dat");
-        Comparable[] items;
-        
+        DataFile datFile = new DataFile("SortingData/test6b.dat");
+
         Test(datFile.getComparables(), "sorting2014.QuickSort");
 
         Test(datFile.getComparables(), "sorting2014.MergeSort");
 
         Test(datFile.getComparables(), "sorting2014.RadixSort");
+
+        Test(datFile.getComparables(), "sorting2014.InsertionSort");
 
         Test(datFile.getComparables(), "sorting2014.BubbleSort");
 
