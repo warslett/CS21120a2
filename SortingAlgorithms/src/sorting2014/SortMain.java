@@ -10,7 +10,7 @@ public class SortMain {
 
     public static void main(String[] args) {
 
-        DataFile datFile = new DataFile("SortingData/test6b.dat");
+        DataFile datFile = new DataFile("SortingData/test4.dat");
 
         Test(datFile.getComparables(), "sorting2014.QuickSort");
 
