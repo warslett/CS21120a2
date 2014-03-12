@@ -1,14 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package sorting2014;
 
 import java.util.Calendar;
 
-/**
- *
- * @author wia2
+/*
+ * @author William Arslett <wia2@aber.ac.uk>
  */
 @SuppressWarnings("unchecked")
 public class SortMain {

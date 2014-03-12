@@ -1,14 +1,9 @@
-/*
- * Created on Jun 28, 2005
- *
- */
 package sorting2014;
 
 
 import linearStructures.*;
 /**
- * @author rcs
- *
+ * @author Richard Shipman <rcs@aber.ac.uk>
  */
 public class RadixSort implements Sorter {
 

@@ -1,4 +1,9 @@
 package linearStructures;
+
+/**
+ * @author Richard Shipman <rcs@aber.ac.uk>
+ */
+
 public class Queue
 {
    private Object[] queue;

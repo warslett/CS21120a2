@@ -1,16 +1,7 @@
-/*
- * Created on Nov 28, 2003
- *
- * To change the template for this generated file go to
- * Window&gt;Preferences&gt;Java&gt;Code Generation&gt;Code and Comments
- */
 package sorting2014;
 
 /**
- * @author rcs
- *
- * To change the template for this generated type comment go to
- * Window&gt;Preferences&gt;Java&gt;Code Generation&gt;Code and Comments
+ * @author Richard Shipman <rcs@aber.ac.uk>
  */
 public class BubbleSort implements Sorter {
 

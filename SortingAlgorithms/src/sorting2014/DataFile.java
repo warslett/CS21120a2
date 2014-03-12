@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package sorting2014;
 
 import java.io.BufferedReader;
@@ -10,9 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.LinkedList;
 
-/**
- *
- * @author wia2
+/*
+ * @author William Arslett <wia2@aber.ac.uk>
  */
 public class DataFile extends File {
 
